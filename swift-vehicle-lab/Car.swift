@@ -13,7 +13,7 @@ class Car: Vehicle {
     let cylinders: Int
     let milesPerGallon: Double
     
-    init(transmission: String, cylinders: Int, milesPerGallon: Double, name: String, weight: Double, maxSpeed: Double) {
+    init(name: String, weight: Double, maxSpeed: Double, transmission: String, cylinders: Int, milesPerGallon: Double) {
         
         self.transmission = transmission
         self.cylinders = cylinders

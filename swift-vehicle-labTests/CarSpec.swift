@@ -8,10 +8,12 @@ class CarSpec: QuickSpec {
     override func spec() {
         describe("Car") {
             
-            let honda = Car(name: "Honda", weight: 2000, maxSpeed: 140, transmission: "5-speed manual", cylinders: 4, milesPerGallon: 29)
+            let honda = Car(name: "Honda", weight: 2000, maxSpeed: 140, transmission: "5-speed manual", cylinders: 4,  milesPerGallon: 29)
+            
             let porsche = Car(name: "Porsche", weight: 2500, maxSpeed: 210, transmission: "6-speed manual", cylinders: 8, milesPerGallon: 18)
             
             let rollingHonda = Car(name: "Honda", weight: 2000, maxSpeed: 140, transmission: "5-speed manual", cylinders: 4, milesPerGallon: 29)
+            
             let cruisingPorsche = Car(name: "Porsche", weight: 2500, maxSpeed: 210, transmission: "6-speed manual", cylinders: 8, milesPerGallon: 18)
             
             beforeEach {
